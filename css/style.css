@@ -22,46 +22,47 @@ https://material.io/tools/color/#!/?view.left=0&view.right=1&primary.color=1e1e1
     margin: 100px auto 180px auto;
     padding: 30px;
     box-sizing: border-box;
-    background-color: rgba(247, 207, 0, 0.6);
+    background-color: rgba(255,160,0, 0.8);
 }
 
 .navigation {
     margin: auto;
     width: 80%;
-    padding: 0px 1.6em;
+    padding: 0px 0em;
 
     font-family: 'Roboto Slab', serif;
-    font-size: 1.5em;
 
     overflow: hidden;
     background-color: #333333;
 }
 
-/* Style the links inside the navigation bar */
 .navigation a {
     float: left;
-    color: #f2f2f2;
-    text-align: center;
+    color: #e1e1e1;
     padding: 14px 16px;
-    text-decoration: none;
+    
     font-size: 17px;
-}
+    text-align: center;
+    text-decoration: none;
+    
+    transition-timing-function: ease-in-out;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+ }
 
-/* Change the color of links on hover */
 .navigation a:hover {
-    background-color: #ddd;
+    background-color: #ffd149;
     color: black;
 }
 
-/* Add a color to the active/current link */
 .navigation a.active {
-    background-color: #4CAF50;
+    background-color: #ffa000;
     color: white;
 }
 
 body {
     background-position: 0px 0px;
-    background-image: url("banner.png");
+    background-image: url("images/banner.png");
     background-size: 65%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -69,11 +70,15 @@ body {
 
 .main {
     width: 80%;
-    padding: 1.6em;
     margin: auto;
-    background-color: #454545;
+    background-color: #f4f4f4;
     
     font-family: 'Roboto Slab', serif;
-    font-size: 1.5em;
+    font-size: 17px;
     text-align: justify;
 }
+
+.main p {
+    padding: 20px;
+}
+
