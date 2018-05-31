@@ -13,23 +13,25 @@ https://material.io/tools/color/#!/?view.left=0&view.right=1&primary.color=1e1e1
     font-family: 'Roboto Slab', serif;
     font-size: 2.2em;
     text-align: center;
-    color: #eeeeee;
-
-    position: relative;
-    max-width: 600px;
-    height: auto;
+  
     border: 2px solid #ffffff;
-    margin: 100px auto 180px auto;
-    padding: 30px;
     box-sizing: border-box;
     background-color: rgba(255,160,0, 0.8);
+    color: #eeeeee;
+
+    max-width: 600px;
+    height: auto;
+    margin: 100px auto 180px auto;
+    padding: 30px;
+
+    position: relative;    
 }
 
 .navigation {
-    margin: auto;
     width: 80%;
+    margin: auto;
     padding: 0px 0em;
-
+    
     font-family: 'Roboto Slab', serif;
 
     overflow: hidden;
@@ -37,16 +39,17 @@ https://material.io/tools/color/#!/?view.left=0&view.right=1&primary.color=1e1e1
 }
 
 .navigation a {
-    float: left;
-    color: #e1e1e1;
     padding: 14px 16px;
-    
+	
     font-size: 17px;
-    text-align: center;
-    text-decoration: none;
+	text-align: center;
+	text-decoration: none;
     
-    transition-timing-function: ease-in-out;
-    -webkit-transition: background-color 0.3s, color 0.3s;
+    float: left;
+    color: #e1e1e1; 
+
+	transition-timing-function: ease-in-out;
+	-webkit-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
  }
 
@@ -61,24 +64,23 @@ https://material.io/tools/color/#!/?view.left=0&view.right=1&primary.color=1e1e1
 }
 
 body {
+    background-image: url("../images/banner.png");
     background-position: 0px 0px;
-    background-image: url("images/banner.png");
     background-size: 65%;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.main {
-    width: 80%;
-    margin: auto;
-    background-color: #f4f4f4;
-    
+.main { 
     font-family: 'Roboto Slab', serif;
     font-size: 17px;
     text-align: justify;
+
+    width: 80%;
+    margin: auto;
+    background-color: #f4f4f4;
 }
 
 .main p {
-    padding: 20px;
+	padding: 20px;
 }
-
