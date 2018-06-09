@@ -12,7 +12,7 @@
   
     border: 2px solid #ffffff;
     box-sizing: border-box;
-    background-color: rgba(255, 162, 0, 0.8);
+    background-color: rgba(87, 209, 209, 0.8);
     color: #eeeeee;
 
     max-width: 600px;
@@ -21,6 +21,11 @@
     padding: 30px;
 
     position: relative;    
+}
+
+.title .bracket {
+    font-size: 1.2em;
+    color: #26fdfd;
 }
 
 .navigation {
@@ -50,12 +55,12 @@
  }
 
 .navigation a:hover {
-    background-color: #ffd149;
+    background-color: #757de8;
     color: black;
 }
 
 .navigation a.active {
-    background-color: #ffa000;
+    background-color: #3f51b5;
     color: white;
 }
 
@@ -98,57 +103,6 @@ a.source {
     font-weight: 500;
     text-decoration: none;
     color: #213999;
-
-    display: inline-block;
-    position: relative;
-    padding: 0 0.25em;
-
-    transition: color 0.2s;
-    transition: transform 0.2s;
-    -webkit-transition: color 0.2s;
-}
-
-a.source:hover {
-  color: #d04c3f;
-}
-
-a.source::before,
-a.source::after {
-    font-weight: 100;
-    font-size: 150%;
-    opacity: 0;
-   
-    position: absolute;
-    top: 0;
-    line-height: 1;
-    
-    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
-    transition: opacity 0.2s, transform 0.2s;
-}
-
-a.source::before {
-    left: -0.15em;
-    top: -0.1em;
-    content: '[';
-    
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-}
-
-a.source::after {
-    right: -0.15em;
-    top: -0.1em;
-
-    content: ']';
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-}
-
-a.source:hover::before,
-a.source:hover::after {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
 }
 
 footer {
