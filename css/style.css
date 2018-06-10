@@ -83,7 +83,7 @@ body {
 .main .container h2    { padding-top: 20px }
 .main .container ul    { padding-left: 30px }
 
-.main .container .image {
+.main .container .imageRight {
     float: right;
     margin: 20px;
 }
@@ -93,7 +93,7 @@ body {
     margin: 20px;
 }
 
-.main .container .image,.imageLeft p {
+.main .container .imageRight,.imageLeft p {
     width: 209px;
     font-size: 0.76em;
 }
