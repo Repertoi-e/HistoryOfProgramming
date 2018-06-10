@@ -27,41 +27,83 @@
     <!--Съдържание-->
     <body bgcolor="1e1e1e">
         <div class="main">
-            <p>Data and instructions were once stored on external punched cards, which were kept in order and 
-            arranged in program decks. 
-            In the 1880s Herman Hollerith invented the concept of storing data in machine-readable form.[5] 
-            Later a control panel (plugboard) added to his 1906 Type I Tabulator allowed it to be programmed 
-            for different jobs, and by the late 1940s, unit record equipment such as the IBM 602 and IBM 604, 
-            were programmed by control panels in a similar way; as were the first electronic computers. However, 
-            with the concept of the stored-program computers introduced in 1949, both programs and data were 
-            stored and manipulated in the same way in computer memory. 
-            Machine code was the language of early programs, written in the instruction set of the particular 
-            machine, often in binary notation. Assembly languages were soon developed that let the programmer 
-            specify instruction in a text format, (e.g., ADD X, TOTAL), with abbreviations for each operation 
-            code and meaningful names for specifying addresses. However, because an assembly language is little 
-            more than a different notation for a machine language, any two machines with different instruction 
-            sets also have different assembly languages.
- 
-            Wired control panel for an IBM 402 Accounting Machine.</p>
+			<div class="container">
+                <h2><i>В началото:</i></h2>
+                <p><b>Най-старата машина за програмиране</b> (това е машина, чието поведение може да се контролира 
+                от промените на програма) е програмният хуманоиден робот на <b>Ал Джазари през 1206 г.</b> Външният 
+                вид на робота на Ал Джазари е механизирана лодка с четирима автоматични музиканти, която се 
+                носи по езерото и забавлява гостите по време на кралските балове. Неговият механизъм включва 
+                програмируеми барабани с ключе, захванати на малка ръчка, които отмерват ритъма. Барабанистът 
+                е можел да изпълнява различни ритми в зависимост от положението на ключето.</p>
 
+                <div class="image">
+                        <br><br><img src="images/Hollerith_machine.jpg" 
+                            width="200" height="150"/>
+                        <p align="right"><i>Табулаторът на Холерит от 1890</i></p>
+                </div>
 
+                <h2><i>Перфокартите на Херман Холерит:</i></h2>
+                <p>Често за образец на ранното изкуство е считан станът за жакардови тъкани, създаден през 
+                1801 г. В тази машина се използвали <b>картонени карти с дупки по тях</b>, като дупките показват 
+                извивките на дрехата. Така в зависимост от картите, които му се поставят, станът можел да 
+                произвежда напълно различни дрехи. Такива карти е използвал и Чарлз Бабидж през 1830 г., 
+                за да управлява своята сметачна машина. Тук отворите се използват за контрол на машината.</p>
 
+                <p>Това нововъведение по-късно е подобрено от <b>Херман Холерит</b>, който прилага перфорацията по 
+                определена схема за въвеждане на данни. Холерит изобретява специална перфорираща машина за 
+                въвеждане на големи масиви от данни, наречена <b>табулатор</b>.
+                
+                <div class="image">
+                        <img src="images/Hollerith_punched_card.jpg" 
+                            width="217" height="123"/>
+                        <p align="right"><i>Перфокарта на Холерит</i></p>
+                </div>
 
-            
-            Programs were mostly still entered using punched cards or paper tape. See computer programming
-            in the punch card era. By the late 1960s, data storage devices and computer terminals became 
-            inexpensive enough that programs could be created by typing directly into the computers. Text 
-            editors were developed that allowed changes and corrections to be made much more easily than 
-            with punched cards.
+                Тя се основава на релета и работи с 
+                <b>перфокарти</b>, които получават неговото име. Освен тях изобретява и четец за тези карти. Първото 
+                приложение на машината е при обработката на резултатите от преброяване на населението в САЩ 
+                през 1890 г. когато резултатите са обработени много по-евтино от очакваното и преди определения 
+                срок (при предишното преброяване обработката отнела години). 
+                
+                <div class="imageLeft">
+                        <img src="images/IBM_plugboard.jpg" 
+                            width="200" height="150"/>
+                        <p align="left"><i>Комутационен панел с проводници за сметачна машина IBM 402.</i></p>
+                </div>
 
+                Следват усъвършенствувания на 
+                машината и през 1906 г. моделът <b>Type I Tabulator</b> вече е снабден с комутационен панел и позволява 
+                бързо и автоматизирано да се изпълняват различни задачи в счетоводството и складовото стопанство 
+                (първата крачка към програмирането).</p>
 
-        </p><b>Езиците от високо ниво</b> позволяват на програмиста да пише по-абстрактни и по-малко обвързани
-        с хардуера програми. Те позволяват на програмистите да посочват изчисления, въвеждайки формула директно
-        (пр., Y = X^2 + 5*X + 9). <b>FORTRAN</b>, първият широко разпространен език от високо ниво излиза през
-        1957 г. и много други езици последват: <b>COBOL</b>, който е ориентиран към обработване на комерсиални данни,
-        и <b>Lisp</b> - за изследователски цели.
+                <p>През 1896 г. Холерит основава компанията <b>Tabulating Machine Company</b> (днес IBM). До края 
+                на 40-те години имало различни видове машини за програмиране с комутационен панел (на 
+                английски: <i>unit record equipment</i>), които да изпълняват четенето на картите. Ранните компютри 
+                също са били програмирани чрез комутационни панели.</p>
+
+                <h2><i>Джон фон Нойман:</i></h2>
+                <p>Изобретението на <b>Джон фон Нойман</b> позволява програмите да бъдат запаметени в компютърна памет. 
+                Ранните програми трябвало стриктно да задават инструкциите на отделната машина, обикновено в 
+                бинарен вид. Всеки модел компютър се нуждаел от различни команди за изпълняването на една и 
+                съща задача. По-късно са създадени <b>езиците за програмиране</b>, които позволяват на програмистите 
+                да представят всяка инструкция в текстов формат, като въвеждат абревиатури за всички операции, 
+                вместо да ползват числа и специфични адреси в символен формат. През 1954 г. е създаден <b>FORTRAN — 
+                първият език на високо ниво</b>. Това позволило на програмистите да извършват изчисленията директно 
+                чрез задаване на нужната формула. <b>Изходният текстов код</b> на програмата се превежда до машинни 
+                инструкции чрез специална програма, наречена <b>компилатор</b>. След това са създадени още много езици 
+                за програмиране (някои от тях с комерсиална цел) — като например <b>COBOL</b>. Програмите обаче все 
+                още се въвеждат с перфокарти или перфолента.</p>
+
+                <h2><i>Модерно програмиране:</i></h2>
+                <p>Към края на 60-те години устройствата за съхранение на данни и компютърните терминали се 
+                развиват достатъчно, за да стане възможно програмите да бъдат писани директно на клавиатурата. 
+                Създадени са текстови редактори, които позволяват на програмистите да въвеждат, редактират и 
+                обработват кода си много по-лесно, отколкото с перфокартите.</p>
+			</div>
+        </p>
         </div>
     </body>
+
     <footer>
         <div class="info"> 
             © 2018, Димитър Сотиров (dsotirov@windowslive.com)

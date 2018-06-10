@@ -48,19 +48,15 @@
     
     float: left;
     color: #e1e1e1; 
-
-	transition-timing-function: ease-in-out;
-	-webkit-transition: background-color 0.3s, color 0.3s;
-    transition: background-color 0.3s, color 0.3s;
  }
 
 .navigation a:hover {
-    background-color: #757de8;
+    background-color: #73deff;
     color: black;
 }
 
 .navigation a.active {
-    background-color: #3f51b5;
+    background-color: #00caca;
     color: white;
 }
 
@@ -92,12 +88,16 @@ body {
     margin: 20px;
 }
 
-.main .container .image p {
-    width: 209px;
-    font-size: 0.76em;
-    
+.main .container .imageLeft {
+    float: left;
+    margin: 20px;
 }
 
+.main .container .image,.imageLeft p {
+    width: 209px;
+    font-size: 0.76em;
+}
+    
 a.source {
     font-size: 1em;
     font-weight: 500;
