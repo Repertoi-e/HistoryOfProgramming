@@ -85,7 +85,7 @@ body {
 .main .container       { padding: 20px 20px 10px 20px }
 .main .container p, h3 { padding: 10px 0px 20px 0px }
 .main .container h2    { padding-top: 20px }
-.main .container ul    { padding-right: 30px }
+.main .container ul    { padding-left: 30px }
 
 .main .container .image {
     float: right;
