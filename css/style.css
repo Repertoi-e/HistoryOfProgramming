@@ -78,26 +78,26 @@ body {
     background-color: #f4f4f4;
 }
 
-.main .container       { padding: 20px 20px 10px 20px }
-.main .container p, h3 { padding: 10px 0px 20px 0px }
-.main .container h2    { padding-top: 20px }
-.main .container ul    { padding-left: 30px }
+.container       { padding: 20px 20px 10px 20px }
+.container p, h3 { padding: 10px 0px 20px 0px }
+.container h2    { padding-top: 20px }
+.container ul    { padding-left: 30px }
 
-.main .container .imageRight {
+.container .imageRight {
     float: right;
     margin: 20px;
 }
 
-.main .container .imageLeft {
+.container .imageLeft {
     float: left;
     margin: 20px;
 }
 
-.main .container .imageRight,.imageLeft p {
+.container .imageRight,.imageLeft p {
     width: 209px;
     font-size: 0.76em;
 }
-    
+
 a.source {
     font-size: 1em;
     font-weight: 500;
