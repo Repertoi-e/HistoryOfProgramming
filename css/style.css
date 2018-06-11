@@ -17,7 +17,7 @@
 
     max-width: 50vw;
     height: auto;
-    margin: 100px auto 180px auto;
+    margin: 100px auto 250px auto;
     padding: 30px;
 
     position: relative;    
@@ -29,7 +29,7 @@
 }
 
 .navigation {
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 0px 0em;
     
@@ -40,9 +40,9 @@
 }
 
 .navigation a {
-    padding: 14px 16px;
+    padding: 13px;
     
-    font-size: 2.2vh;
+    font-size: 2.5vh;
 	text-align: center;
 	text-decoration: none;
     
@@ -70,10 +70,10 @@ body {
 
 .main { 
     font-family: 'Roboto Slab', serif;
-    font-size: 2.5vh;
+    font-size: 2.6vh;
     text-align: justify;
 
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-color: #f4f4f4;
 }
@@ -103,14 +103,14 @@ a.source {
 footer {
     background-color: #333333;
    
-    width: 80%;
+    width: 90%;
     margin: 15px auto 15px auto;
 }
 
 footer .info {
     text-align: center;
     font-family: 'Roboto Slab', serif;
-    font-size: 2.3vh;
+    font-size: 2vh;
     color: #e1e1e1;
 
     padding: 10px 10px;
