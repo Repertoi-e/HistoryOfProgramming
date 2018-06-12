@@ -40,15 +40,15 @@
 }
 
 .navigation a {
-    padding: 13px;
-    height: 100%;
-    margin: auto 0px;
-    
-    font-size: 17px;
-	text-align: center;
-	text-decoration: none;
-    
+    width: 13%;
     float: left;
+    height: 100%;
+    padding: 13px;
+    margin: auto;
+
+    text-decoration: none;
+	text-align: center;
+    font-size: 17px;
     color: #e1e1e1; 
  }
 
@@ -80,7 +80,7 @@ body {
     background-color: #f4f4f4;
 }
 
-.container       { padding: 20px 20px 10px 20px }
+.container       { overflow: auto; padding: 20px 20px 10px 20px }
 .container p, h3 { padding: 10px 0px 20px 0px }
 .container h2    { padding-top: 20px }
 .container ul    { padding-left: 30px }
